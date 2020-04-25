@@ -41,7 +41,7 @@ const notCode = [
 //
 const mortyNamesArray = grandson.split(' ');
 const numberOfNames = mortyNamesArray.length;
-console.log(`A1) Morty has ${numberOfNames} names`);
+console.log(`Morty has ${numberOfNames} names`);
 
 //
 //
@@ -50,7 +50,8 @@ console.log(`A1) Morty has ${numberOfNames} names`);
 // Q2
 // Convert the alternateRicks string to an array, so that each name ("Simple
 // Rick") is an element in that array. Log that array to the console.
-
+const alternateRicksArray = alternateRicks.split(',');
+console.log(alternateRicksArray)
 //
 //
 //
