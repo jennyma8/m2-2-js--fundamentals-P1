@@ -59,13 +59,16 @@ console.log(alternateRicksArray)
 // Q3
 // How many Ricks have been named in alternateRicks?
 // HINT: There are multiple ways to solve this one. Maybe try a `for` loop!
-
+console.log(alternateRicksArray.length);
+24
 //
 //
 //
 //
 // Q4
 // How many characters are there in rickSaying (without spaces)?
+rickSaying.length-3
+16
 
 //
 //
@@ -74,15 +77,16 @@ console.log(alternateRicksArray)
 // Q5
 // It turns out, Morty doesn't actually have a middle name. The `grandson`
 // string is wrong! Console Morty's name without "Antoine".
-
+console.log(grandson.replace("Antoine ", ""));
 //
 //
 //
 //
 // Q6
 // Scary Terry is actually not an enemy. Remove him from the list and console only Rick's true enemies.
-
-//
+const enemies =
+  'Tammy Gueterman, Evil Morty, Zeep Xanflorp, Galactic Federation, Council of Ricks, Phoenixperson, Scary Terry, Abradolf Lincler, Supernova';
+console.log(enemies.replace("Scary Terry, ", ""));
 //
 //
 //
