@@ -16,5 +16,7 @@ const myArray = [
   'funky',
 ];
 
-console.log(myArray, 'funky'); // true
-console.log(myArray, 'elephant'); // false
+function () {
+  console.log(myArray.includes('funky'));
+  console.log(myArray.includes('elephant'));
+}
