@@ -12,7 +12,17 @@
 // = 371
 
 let armstrongNumbers = [];
-
-// write your loop here...
+for (let i = 0; i <= 999; i++) {
+    let num = i.toString();
+  
+    let numCube = 0;
+    for (let j = 0; j < num.length; j++) {
+      numCube += num[j] ** num.length;
+    }
+  
+    if (i === numCube) {
+      armstrongNumbers.push(i);
+    }
+}
 
 console.log(armstrongNumbers);

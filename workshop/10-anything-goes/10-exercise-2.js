@@ -11,8 +11,11 @@
 // Rewrite countBs to make use of this new function.
 
 function countChar(str, char) {
-
-
+    let countOfChars = 0;
+    for (let N = 0; N < str.length; N++) {
+      if (str[N] === char) countOfChars++;
+    }
+    return countOfChars;
 }
 // -------------------------------------------------------------------------
 console.log('Q2: ', countChar('BananaBabyBubbles', 'u'));
